@@ -48,7 +48,7 @@ namespace GoogleARCore.Examples.HelloAR
         /// <summary>
         /// A model to place when a raycast from a user touch hits a plane.
         /// </summary>
-        public GameObject AndyPlanePrefab;
+        public GameObject BasketballHoop;
 
         /// <summary>
         /// A model to place when a raycast from a user touch hits a feature point.
@@ -125,18 +125,33 @@ namespace GoogleARCore.Examples.HelloAR
                     GameObject prefab;
                     if (hit.Trackable is FeaturePoint)
                     {
-                        prefab = AndyPointPrefab;
+                        //prefab = AndyPointPrefab; NATE PUT THIS LINK IN TO HELP UNDERSTAND
+                        //https://developers.google.com/ar/discover/concepts
+                        prefab = BasketballHoop;
                     }
                     else
                     {
-                        prefab = AndyPlanePrefab;
+                        prefab = BasketballHoop;
                     }
 
                     // Instantiate Andy model at the hit pose.
-                    var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+                    //var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
 
-                    // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
-                    andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
+                    //WE NEED TO MAKE THE Y DIRECTION 0 ON THE HIT POSE
+
+                    Vector3 rotationVector = new Vector3(-90, 0, 0);
+                    Quaternion qrotation = Quaternion.Euler(rotationVector);
+                    var andyObject = Instantiate(prefab, hit.Pose.position, qrotation);
+
+
+                    //andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
+                    //andyObject.transform.Rotate(-90f, k_ModelRotation, 0f, Space.Self);
+
+
+                    //NATE ADDED THIS CODE
+                    //andyObject.transform.Rotate(Vector3.zero);
+                    //andyObject.transform.Rotate(-90, 0, 0);
+
 
                     // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
                     // world evolves.
