@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4223348910509766}
   - component: {fileID: 33507769847658024}
   - component: {fileID: 23927329612656336}
+  - component: {fileID: 65998793721939130}
   m_Layer: 0
   m_Name: Object01
   m_TagString: Untagged
@@ -56,6 +57,7 @@ GameObject:
   - component: {fileID: 4370516016678084}
   - component: {fileID: 33474695100934598}
   - component: {fileID: 23181022488955484}
+  - component: {fileID: 65904892608605860}
   m_Layer: 0
   m_Name: Object03
   m_TagString: Untagged
@@ -90,6 +92,7 @@ GameObject:
   - component: {fileID: 4842214301172442}
   - component: {fileID: 33462049342973468}
   - component: {fileID: 23893858582689952}
+  - component: {fileID: 64915734172425034}
   m_Layer: 0
   m_Name: Plane01
   m_TagString: Untagged
@@ -356,6 +359,44 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!64 &64915734172425034
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1935955788760576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: 840e93c57cfd746d2b893ef72d5a622e, type: 3}
+--- !u!65 &65904892608605860
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546326936973930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6550.6665, y: 3402.9243, z: 5.7534785}
+  m_Center: {x: 0.9416504, y: 5922.3643, z: 709.4578}
+--- !u!65 &65998793721939130
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229972667021504}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6582.255, y: 3447.7705, z: 104.84124}
+  m_Center: {x: 0.09863281, y: 5924.3765, z: 657.2625}
 --- !u!114 &114420358835317892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -374,7 +415,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1561534714643822}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
