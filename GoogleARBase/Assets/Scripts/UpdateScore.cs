@@ -7,11 +7,14 @@ using UnityEngine.UI;
 //attach this to the hoop
 public class UpdateScore : MonoBehaviour {
     private int score = 0;
-    public Text scoreText;
+    //public Text scoreText;
+    private Text scoreText;
 
     // Use this for initialization
     private void Start()
     {
+
+        scoreText = GameObject.FindWithTag("ScoreText").GetComponent<Text>();
         scoreText.text = "Score: " + score.ToString();
     }
 
