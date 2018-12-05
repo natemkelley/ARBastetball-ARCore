@@ -80,7 +80,7 @@ namespace GoogleARCore.Examples.HelloAR
 
         //NATES CODE
         private bool hoopPlaced = false;
-        public Text scoreText;
+        //public Text scoreText;
 
 
         /// <summary>
@@ -113,7 +113,7 @@ namespace GoogleARCore.Examples.HelloAR
 
 
             if(!hoopPlaced){
-                scoreText.text = "not placed hoop : " + Input.touchCount.ToString();
+                //scoreText.text = "not placed hoop : " + Input.touchCount.ToString();
                 _placeBasketballHoop(touch);
                 _ShowAndroidToastMessage("Hoop Placed.");
             } else{
@@ -199,13 +199,13 @@ namespace GoogleARCore.Examples.HelloAR
             TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
                 TrackableHitFlags.FeaturePointWithSurfaceNormal;
 
-            scoreText.text = "placing ";
+            //scoreText.text = "placing ";
 
 
             if (Frame.Raycast(touch.position.x, touch.position.y, raycastFilter, out hit))
             {
 
-                scoreText.text = "placing entered if ";
+               //scoreText.text = "placing entered if ";
 
                 // Use hit pose and camera pose to check if hittest is from the
                 // back of the plane, if it is, no need to create the anchor.
@@ -248,7 +248,7 @@ namespace GoogleARCore.Examples.HelloAR
 
 
                     //NATES CODE
-                    scoreText.text = "worked ";
+                    //scoreText.text = "worked ";
                     hoopPlaced = true;
                 }
             }
