@@ -78,16 +78,16 @@
     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.88.0.txt" />
     <None Include="Assets\GoogleARCore\Editor\ARCoreiOSDependencies.template" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/Nate/Unity Projects/GoogleARBase/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/ARBastetball-ARCore/GoogleARBase/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/Nate/Unity Projects/GoogleARBase/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/ARBastetball-ARCore/GoogleARBase/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/Nate/Unity Projects/GoogleARBase/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/ARBastetball-ARCore/GoogleARBase/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/Nate/Unity Projects/GoogleARBase/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/ARBastetball-ARCore/GoogleARBase/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -342,16 +342,16 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver_v1.2.88.0">
-      <HintPath>/Users/Nate/Unity Projects/GoogleARBase/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/ARBastetball-ARCore/GoogleARBase/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl_v1.2.88.0">
-      <HintPath>/Users/Nate/Unity Projects/GoogleARBase/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/ARBastetball-ARCore/GoogleARBase/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
-      <HintPath>/Users/Nate/Unity Projects/GoogleARBase/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/ARBastetball-ARCore/GoogleARBase/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.88.0">
-      <HintPath>/Users/Nate/Unity Projects/GoogleARBase/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll</HintPath>
+      <HintPath>/Users/Nate/Documents/GitHub/ARBastetball-ARCore/GoogleARBase/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/Nate/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
